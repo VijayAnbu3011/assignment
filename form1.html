@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Novell Service Login</h1>
+        <table border>
+            <tr>
+                <td>NAME:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td>City Of Employement:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Web Server:</td>
+                <td>
+                    <select >
+                        <option >Please Select</option>
+                        <option >Apache</option>
+                        <option >IIS</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td> Please Specify <br>
+                    Your Role</td>
+                <td>
+                    <input type="radio" name="Please Specify Your Role" value="Admin">Admin <br>
+                    <input type="radio" name="Please Specify Your Role" value="Engineer">Engineer <br>
+                    <input type="radio" name="Please Specify Your Role" value="Manager">Manager <br>
+                    <input type="radio" name="Please Specify Your Role" value="guest">Guest <br>
+                </td>
+            </tr>
+            <tr>
+                <td>Single sign_on <br>
+                    to the following
+                </td>
+                <td><input type="checkbox">mail
+                    <input type="checkbox">Payroll
+                    <input type="checkbox">Self Service
+                </td>
+            </tr>        
+        </table>
+        <button style="margin-left: 275px;">login</button>
+        <button >Reset</button>
+    </div>
+</body>
+</html>
